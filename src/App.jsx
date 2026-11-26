@@ -177,8 +177,9 @@ function App() {
   <div className="footer-content">
 
     <div className="footer-brand">
-      <h2>🌿 Virkkuviher</h2>
-    </div>
+  <span className="footer-logo">🌿</span>
+  <h2>Virkkuviher</h2>
+</div>
 
     <div className="footer-links">
       <a href="#">Toimitustiedot</a>

@@ -431,16 +431,30 @@
 
   justify-content: space-between;
   align-items: center;
+
+  gap: 2rem;
+}
+
+.footer-brand {
+  display: flex;
+
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.footer-logo {
+  font-size: 2.3rem;
 }
 
 .footer-brand h2 {
+  margin: 0;
+
   color: #55754c;
 
-  font-size: 2.3rem;
+  font-size: 2.7rem;
 
   font-weight: 700;
-
-  margin: 0;
 }
 
 .footer-links {
@@ -468,7 +482,7 @@
 
   align-items: center;
 
-  gap: 1.2rem;
+  gap: 1rem;
 }
 
 .footer-social p {
@@ -485,9 +499,13 @@
   .footer-content {
     flex-direction: column;
 
-    gap: 2rem;
-
     text-align: center;
+
+    gap: 1.5rem;
+  }
+
+  .footer-brand {
+    justify-content: center;
   }
 
   .footer-links {
